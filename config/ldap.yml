@@ -1,0 +1,20 @@
+development:
+  host: ldap.canall.com.br
+  port: 389
+  attribute: uid
+  base: ou=Users,dc=canall,dc=com,dc=br
+  ssl: false
+
+test:
+  host: ldap.canall.com.br
+  port: 389
+  attribute: uid
+  base: ou=Users,dc=canall,dc=com,dc=br
+  ssl: false
+
+production:
+  host: ldap.canall.com.br
+  port: 389
+  attribute: uid
+  base: ou=Users,dc=canall,dc=com,dc=br
+  ssl: false
